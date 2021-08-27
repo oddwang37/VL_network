@@ -1,0 +1,15 @@
+.postItem {
+    display: flex;
+    width: 728px;
+}
+.postItem__text {
+    margin-left: 15px;
+    font-weight: 600;
+}
+
+.postItem__likes {
+    font-size: 18px;
+    color: violet;
+    margin-left: 15px;
+    font-weight: 800;
+}

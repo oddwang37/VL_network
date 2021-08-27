@@ -1,0 +1,28 @@
+.aside {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: #DBC8FF;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.navList {
+    list-style-type: none;
+}
+
+.navList__item {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #4D18B4;
+    text-transform: uppercase;
+}
+
+.navList__item a {
+    text-decoration: none;
+}
+
+.navList__item_mt40 {
+    margin-top: 40px;
+    color: #834EEB;
+}

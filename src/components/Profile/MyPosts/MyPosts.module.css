@@ -1,0 +1,25 @@
+.posts {
+    margin-top: 30px;
+}
+
+.post__heading {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.post__newPost {
+    margin-top: 20px;
+    width: 760px;
+    height: 100px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #7A7272;
+    border-radius: 5px;
+    background-color: #F6E4FF;
+    padding: 20px;
+}
+
+.postsList {
+    margin-top: 35px;
+    margin-left: 36px;
+}
