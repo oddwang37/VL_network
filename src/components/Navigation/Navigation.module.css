@@ -1,7 +1,7 @@
 .aside {
     grid-row-start: 2;
     grid-row-end: 4;
-    background-color: #DBC8FF;
+    background-color: #C7DAF8;
     border-radius: 5px;
     padding: 10px 20px;
 }
@@ -14,15 +14,20 @@
     margin-top: 10px;
     font-size: 24px;
     font-weight: bold;
-    color: #4D18B4;
+    color: #36117E;
     text-transform: uppercase;
 }
 
 .navList__item a {
     text-decoration: none;
+    transition: 1s all;
 }
 
 .navList__item_mt40 {
     margin-top: 40px;
-    color: #834EEB;
+    color: #36117E;
+}
+
+.active {
+    color: #CD2BD0;
 }

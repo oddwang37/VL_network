@@ -1,0 +1,32 @@
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.input {
+    display: block;
+    width: 312px;
+    height: 40px;
+    color: #7EB8D9;
+    padding: 8px;
+    border: #0B6B89;
+    border-radius: 5px;
+}
+.button {
+    width: 112px;
+    height: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    background-color: #8EBDEC;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.inputWrapper {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}

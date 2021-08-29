@@ -15,8 +15,9 @@
     font-size: 14px;
     color: #7A7272;
     border-radius: 5px;
-    background-color: #F6E4FF;
+    background-color: #DDEBFF;
     padding: 20px;
+    border: 1px solid #97BEF9;
 }
 
 .postsList {

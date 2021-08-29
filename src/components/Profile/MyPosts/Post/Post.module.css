@@ -1,6 +1,7 @@
 .postItem {
     display: flex;
     width: 728px;
+    margin-top: 15px;
 }
 .postItem__text {
     margin-left: 15px;
@@ -9,7 +10,7 @@
 
 .postItem__likes {
     font-size: 18px;
-    color: violet;
+    color: #36117E;
     margin-left: 15px;
     font-weight: 800;
 }

@@ -1,0 +1,4 @@
+.messagesWrapper {
+    display: flex;
+    justify-content: space-between;
+}
