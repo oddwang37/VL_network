@@ -6,20 +6,42 @@
     font-size: 28px;
     font-weight: 700;
 }
-
-.post__newPost {
+.form_post {
     margin-top: 20px;
-    width: 760px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.post__newPost {
+    width: 70%;
     height: 100px;
     font-weight: 700;
     font-size: 14px;
     color: #7A7272;
     border-radius: 5px;
-    background-color: #DDEBFF;
+    background-color: #b2cdf313;
     padding: 20px;
     border: 1px solid #97BEF9;
 }
-
+.button_newPost{
+    display: block;
+    width: 27%;
+    height: 65px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 5px;
+    background-color: #7492c0;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+.button_newPost:hover {
+    background-color: #516d97;
+}
 .postsList {
     margin-top: 35px;
     margin-left: 36px;

@@ -5,9 +5,10 @@ import PropTypes from 'prop-types';
 const ChatItem = (props) => {
         ChatItem.propTypes = {
                 message: PropTypes.string,
+                id: PropTypes.number,
         }
 
-    return  <div className={s.item}>
+    return  <div className={`${s.item} ${s.item_right}`}>
             <img src='img/message-avatar-1.png' className={s.avatar} alt='chat avatar'></img>
             <div className={s.area}>
                 <div className={s.text}>

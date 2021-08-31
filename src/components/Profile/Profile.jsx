@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import s from './Profile.module.css';
 import MyPosts from "./MyPosts/MyPosts";
 
-const Profile = () => {
+const Profile = (props) => {
     return <div>
         <img src="img/profile-bg.png" className={s.profileBg}></img>
         <section className="profile">
@@ -18,7 +19,7 @@ const Profile = () => {
                 </div>
             </div>
         </section>
-        <MyPosts/>
+        <MyPosts postData={props.postData} addPost={props.addPost}/>
     </div>
 }
 

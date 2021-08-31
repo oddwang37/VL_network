@@ -1,0 +1,11 @@
+.friendsList {
+    display: flex;
+}
+
+.heading {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #36117E;
+    text-transform: uppercase;
+}

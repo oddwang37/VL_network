@@ -11,7 +11,10 @@ const Post = (props) => {
    return <li className={`${s.postList__item} ${s.postItem}`}>
         <img src="./../../../img/post-avatar.png" className="post-item__author-img" alt='asdasd'/>
        <div className={s.postItem__text}>{props.message}</div>
-       <div className={s.postItem__likes}>{props.likes}</div>
+       <div className={s.postItem__likes}>
+          {props.likes}
+          <span className={s.heart}>....</span>
+      </div>
     </li>
 }
 

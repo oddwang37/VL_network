@@ -1,19 +1,13 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable react/jsx-key */
 import React from 'react';
 import s from './Chat.module.css';
 import ChatItem from "./ChatItem/ChatItem";
 import MessageInput from "./MessageInput/MessageInput";
 
-const Chat = () => {
+const Chat = (props) => {
 
-    let messageData = [
-        {message: 'hello'},
-        {message: 'good bye!'},
-        {message: 'good afternoon!'},
-        {message: 'adios!'},
-    ]
-
-    let messageElements = messageData.map((m) => {
+    let messageElements = props.messageData.map((m) => {
        return <ChatItem message={m.message}/>
     })
 

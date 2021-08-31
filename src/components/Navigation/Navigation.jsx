@@ -1,9 +1,12 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import s from './Navigation.module.css';
 import {NavLink} from "react-router-dom";
+import Friends from './Friends/Friends';
 
 
-const Navigation = () => {
+
+const Navigation = (props) => {
     return <aside className={s.aside}>
     <nav className={s.aside_nav}>
       <ul className={s.navList}>
@@ -14,6 +17,7 @@ const Navigation = () => {
         <li className={`${s.navList__item} ${s.navList__item_mt40}`}><NavLink to="/settings" activeClassName={s.active}>Settings</NavLink></li>
       </ul>
     </nav>
+    <Friends friends={props.friends} />
   </aside>
 }
 
